@@ -1,8 +1,26 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.viandavisual.bandadelacala",
-        "sha256_cert_fingerprints": ["FE:1D:FC:B2:1E:91:ED:25:DB:D3:37:82:33:46:1B:C2:5E:2D:3A:3C:4B:9E:97:0D:FC:7A:73:9E:5E:C7:C4:18"]
-      }
-    }]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.viandavisual.bandadelacala",
+      "sha256_cert_fingerprints": [
+        "FE:1D:FC:B2:1E:91:ED:25:DB:D3:37:82:33:46:1B:C2:5E:2D:3A:3C:4B:9E:97:0D:FC:7A:73:9E:5E:C7:C4:18"
+      ]
+    }
+  },
+  {
+    "target": {
+      "sha256_cert_fingerprints": [
+        "0E:30:6B:90:8F:64:A8:D5:0C:C3:A4:40:32:32:E0:01:5E:C9:6B:52:5C:3F:24:2E:24:A6:41:9D:26:72:DB:00"
+      ],
+      "namespace": "android_app",
+      "package_name": "io.github.viandavisual.mortadelocheck"
+    },
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ]
+  }
+]
